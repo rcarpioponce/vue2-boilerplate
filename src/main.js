@@ -25,9 +25,9 @@ const router = new VueRouter({
 Vue.config.productionTip = false;
 
 axios.defaults.baseURL = process.env.API_URL;
-axios.defaults.headers.get["Accept"] = "application/json";
+/*axios.defaults.headers.get["Accept"] = "application/json";
 axios.defaults.headers.common["Content-Type"] = "application/json";
-
+*/
 new Vue({
   el: "#app",
   render: h => h(App),
